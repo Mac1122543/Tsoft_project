@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <title>Document</title>
     <style>
         /* *{
@@ -54,6 +56,60 @@
         top:-2vh;
         padding: 0 2vw;
        }
+
+
+       .search_section{
+        height: 18vh;
+        width: 100vw;
+           background-color: #f4f4f4;
+       }
+
+       .search_section ul{
+           padding: 3vh 20vw;
+
+       }
+       .search_section ul li
+       {
+           display: inline;
+           /* padding: 0vh 3vh; */
+
+       }
+       #search{
+           margin: 1vh;
+            padding: 1vh;
+           font-size: 3vh;
+           height: 7vh;
+           width: 30vw;
+           font-family: 'Arimo', sans-serif;
+           
+       }
+       .search_section ul li button{
+           padding: 3vh 4vw;
+           margin: 1vh;
+           /* background-color: ; */
+           color: white;
+           border: none;
+           font-size: large;
+
+
+       }
+
+      #b1:hover{
+        background-color:#1d3104;
+       }
+
+       #b1{
+           background-color:#528512 ;
+           
+       }
+       #b2:hover{
+           background-color:#031020
+       }
+
+       #b2{
+           background-color: #032043;
+           
+       }
        
     </style>
 </head>
@@ -70,7 +126,15 @@
         </ul>
         </div>
         <div class="search_section">
-            
+            <ul type="none">
+                <li>
+                    <input id="search" name="text" placeholder="what are you looking for..." type="text" value="">
+                </li>
+                <li><button id="b1">&#128269;search</button></li>
+                <li><button id="b2">cancel</button></li>
+            </ul>
+
+         
         </div> 
 </body>
 </html>
